@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: rag-chatbot-backend
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: PINECONE_API_KEY
+        sync: false
+      - key: PINECONE_CLOUD
+        sync: false
+      - key: PINECONE_REGION
+        sync: false
+      - key: PINECONE_INDEX
+        sync: false
