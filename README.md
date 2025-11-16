@@ -1,12 +1,3 @@
-# 📚 RAG Chatbot - PDF Document Assistant
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/your-username/rag-chatbot/blob/main/LICENSE)
-[![Node.js](https://img.shields.io/badge/node-%3E%3D16.0.0-blue.svg)](https://nodejs.org)
-[![React](https://img.shields.io/badge/react-%5E18.0.0-blue.svg)](https://reactjs.org)
-[![TypeScript](https://img.shields.io/badge/typescript-%5E4.0.0-blue.svg)](https://www.typescriptlang.org)
-[![Vercel](https://img.shields.io/badge/vercel-deployed-brightgreen)](https://vercel.com)
-[![Render](https://img.shields.io/badge/render-backend-brightgreen)](https://render.com)
-
 A modern chatbot application that allows users to upload PDF documents and ask questions about their content using Retrieval Augmented Generation (RAG) with Google Gemini and Pinecone vector database.
 
 ![RAG Chatbot Demo](./preview/preview-1.png)
@@ -211,16 +202,3 @@ rag-chatbot/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
-
-**Mausam Kar**
-- Portfolio: [mausam03.vercel.app](https://mausam03.vercel.app)
-- GitHub: [@your-username](https://github.com/Mausam5055)
-
-## 🙏 Acknowledgements
-
-- [Google Gemini](https://ai.google.dev/) for the powerful language model(used embedding_model_001)
-- [Pinecone](https://www.pinecone.io/) for the vector database
-- [Vercel](https://vercel.com/) for frontend hosting
-- [Render](https://render.com/) for backend hosting
-- [Uptime Robot](https://uptimerobot.com/) for 24/7 backend monitoring and uptime
